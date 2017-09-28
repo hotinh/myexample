@@ -1,0 +1,5 @@
+*.swp
+GeoLiteCity-*.csv
+.idea
+*.iml
+node_modules
