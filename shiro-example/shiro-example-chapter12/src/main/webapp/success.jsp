@@ -3,8 +3,14 @@
 <html>
 <head>
     <title></title>
+    <style>.error{color:red;}</style>
 </head>
 <body>
+
+<%@ include file="sss.jsp"%> 
+
+<div class="error">用户名：<shiro:principal/></div>
+
      <shiro:hasAnyRoles name="admin">
          <shiro:principal/>拥有角色admin
      </shiro:hasAnyRoles>

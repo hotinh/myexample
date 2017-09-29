@@ -5,7 +5,7 @@
     <style>.error{color:red;}</style>
 </head>
 <body>
-
+<%@ include file="sss.jsp"%> 
 <div class="error">您没有权限[${exception.message}]</div>
 </body>
 </html>

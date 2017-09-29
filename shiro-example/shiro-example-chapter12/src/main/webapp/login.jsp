@@ -5,7 +5,7 @@
     <style>.error{color:red;}</style>
 </head>
 <body>
-
+<%@ include file="sss.jsp"%> 
 <div class="error">${error}</div>
 <form action="" method="post">
     用户名：<input type="text" name="username"><br/>
